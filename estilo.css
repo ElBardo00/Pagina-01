@@ -1,13 +1,18 @@
-h1{
-font-family: Impact;
-font-style: italic;
-display: block;
-text-align: center;
-line-height: 90%;
-color: red;
-box-sizing: border-box;
-/*background: ;
-alignment: ;
-line-height
-*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-family: Impact;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    line-height: 90%;
+    color: red;
+    /*background: ;
+    alignment: ;
+    line-height
+    */
 }
