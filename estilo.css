@@ -1,13 +1,46 @@
-h1{
-font-family: Impact;
-font-style: italic;
-display: block;
-text-align: center;
-line-height: 90%;
-color: red;
-box-sizing: border-box;
-/*background: ;
-alignment: ;
-line-height
-*/
+body {
+    background-color: #eee;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    float: right
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header {
+    margin-top: 55px;
+    font-family: Impact;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    line-height: 90%;
+    color: red;
+}
+
+main {
+    display: block;
 }
